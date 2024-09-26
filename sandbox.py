@@ -4,9 +4,10 @@ Description: Sandbox for 1st time coder
 History:     09/25/2024, initial version
 """
 
-robots = ["Bing", "Bleep", "Bloop", "PeDan", "ShabuDan"]
+robots = ["Bing", "Bleep", "Bloop", "PeaDan", "ShabuDan"]
 colors = ["red", "blue", "yellow", "pink", "black"]
 newbots = []
+
 index = 0
 qqdex = 4
 
@@ -16,7 +17,9 @@ for each in robots:
     index = index + 1
     qqdex = qqdex - 1
 
+    newbots.append(index)
     newbots.append(each)
+    
 
 print("Newbot is... ")
 print(newbots)
