@@ -1,4 +1,10 @@
-import pgzrun
+"""
+Author:      Roy Wu, Summer Wu
+Description: The princess version of the pac-man game
+History:     09/19/2024, initial version
+"""
+
+import pgzrun #* pygame zero
 from random import randint
 
 WIDTH = 900
