@@ -1,3 +1,9 @@
+"""
+Author:      Roy Wu, Summer Wu
+Description: Use Pygame Zero for a apple shooting/clicking game
+History:     09/14/2024, initial version
+"""
+
 import pgzrun
 from random import randint
 

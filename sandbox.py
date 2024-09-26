@@ -1,3 +1,9 @@
+"""
+Author:      Roy Wu, Summer Wu
+Description: Sandbox for 1st time coder
+History:     09/25/2024, initial version
+"""
+
 robots = ["Bing", "Bleep", "Bloop", "PeDan", "ShabuDan"]
 colors = ["red", "blue", "yellow", "pink", "black"]
 newbots = []
