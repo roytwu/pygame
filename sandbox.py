@@ -11,16 +11,21 @@ newbots = []
 index = 0
 qqdex = 4
 
-
+#* "each": loop variable, which is a temporary variable
 for each in robots:
     print("My name is " + robots[index] + ". I am " + colors[qqdex])
     index = index + 1
     qqdex = qqdex - 1
 
     newbots.append(index)
-    newbots.append(each)
+    newbots.append("hehehe")
     
 
 print("Newbot is... ")
 print(newbots)
 
+
+a = 5
+
+if bool(a):
+    print("what is" + str(a))
