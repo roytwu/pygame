@@ -19,8 +19,8 @@ peach.pos = 100, 100
 mush.pos  = 200, 200 
 
 def place_mush():
-    mush.x = randint(20, (WIDTH-20))
-    mush.y = randint(20, (HEIGHT-20))
+    mush.x = randint(30, (WIDTH-30))
+    mush.y = randint(30, (HEIGHT-30))
 
 def time_up():
     global game_over
@@ -34,7 +34,7 @@ def draw():
     screen.draw.text("Score: "+ str(score), color = "green", topleft = (10, 10))
 
     if game_over:
-        screen.fill("pink")
+        screen.fill("tan")
         screen.draw.text("Final Score: "+ str(score), 
                          color = "blue", topleft = (10, 10), fontsize = 60)
 
